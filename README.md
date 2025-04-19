@@ -5,19 +5,25 @@ This repository demonstrates a basic User Account Control (UAC) bypass method. I
 
 ---
 
+## 🧩 What It Does
+
+This script performs a **simple UAC bypass** by taking advantage of a known Windows mechanism to open a administrator-level cmd.exe window without triggering a UAC prompt or password prompts.
+
+---
+
 ## 🚀 How to Use
 
-1. **Download the Code:**
+1. 📥 **Download the Code:**
    - Click the green **Code** button.
    - Select **Download ZIP**.
 
-2. **Unzip the Archive:**
+2. 🗂️ **Unzip the Archive:**
    - Extract the ZIP file to any location on your system.
 
-3. **Run the Script:**
+3. ⚙️ **Run the Script:**
    - Double-click `run.bat` to execute the UAC bypass.
 
-4. **Cleanup:**
+4. 🧹 **Cleanup:**
    - Double-click `clean.bat` to remove any changes or files made during execution.
 
 ---
