@@ -1,11 +1,13 @@
-
-
-
 $source = @"
 using System.Diagnostics;
 class Program {
     static void Main() {
-        Process.Start("cmd.exe");
+        var psi = new ProcessStartInfo {
+            FileName = "cmd.exe",
+            Arguments = "/k echo Say Hello to admin rights", // /k keeps the window open
+            UseShellExecute = true
+        };
+        Process.Start(psi);
     }
 }
 "@
