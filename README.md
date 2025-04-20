@@ -21,17 +21,17 @@ This script performs a **simple UAC bypass** by taking advantage of a known Wind
    - Extract the ZIP file to any location on your system.
 
 3. ⚙️ **Run the Script:**
-   - Double-click `run.bat` to execute the UAC bypass.
+   - Double-click `run.vbs` to execute the UAC bypass.
 
 4. 🧹 **Cleanup:**
-   - Double-click `clean.bat` to remove any changes or files made during execution.
+   - Double-click `clean.vbs` to remove any changes or files made during execution.
 
 ---
 
 ## 📂 Files Included
 
-- `run.bat` — Executes the `run.ps1`.
-- `clean.bat` — Executes the `clean.ps1`.
+- `run.vbs` — Executes the `run.ps1`.
+- `clean.vbs` — Executes the `clean.ps1`.
 - `run.ps1` — Executes the UAC bypass.
 - `clean.ps1` — Cleans up all changes made by the script.
 
