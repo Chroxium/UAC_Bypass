@@ -1,7 +1,6 @@
 # Check if the registry key exists and remove it if found
-if (Test-Path "HKCU:\software\classes\ms-settings") {
-    Write-Host "Registry values removed...(1/4)"
-    Remove-Item -Path "HKCU:\software\classes\ms-settings" -Recurse -Force
+if (Test-Path "HKCU:\Software\Classes\ms-settings\shell\open\command") {
+    Remove-Item -Path "HKCU:\Software\Classes\ms-settings\shell\open\command" -Recurse -Force
 } else {
     Write-Host "Registry key not found...(1/4)"
 }
