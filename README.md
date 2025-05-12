@@ -21,11 +21,7 @@ This script performs a **simple UAC bypass** by taking advantage of a known Wind
    - Extract the ZIP file in your downloads folder.
 
 3. ⚙️ **Run the Script:**
-   - Double-click `run - User.vbs` to run cmd as User.  
-                          -or-
-   - Double-click `run - Admin.vbs` to run cmd as Admin.  
-                          -or-
-   - Double-click `run - System.vbs` to run cmd as System.
+   - Double-click `run.vbs` to run any file as admin or system.  
 
 
 4. 🧹 **Cleanup:**
@@ -35,10 +31,12 @@ This script performs a **simple UAC bypass** by taking advantage of a known Wind
 
 ## 📂 Files Included
 
-- `run - *.vbs` — Executes `run - *.ps1`.
-- `run - *.ps1` — Executes the UAC bypass
+- `run.vbs` — Executes `run.bat`.
+- `run.bat` — Executes the UAC bypass
 - `clean.vbs` — Executes the `clean.ps1`.
 - `clean.ps1` — Cleans up all changes made by the script.
+- `menu.ps1` — Shows the menu.
+- `admin.ps1` — elevates to admin.
 
 ---
 
@@ -49,7 +47,7 @@ Want to understand how it works? Check out the links or explore the following to
 
 - [Creative UAC Bypass Methods for the Modern Era](https://g3tsyst3m.github.io/privilege%20escalation/Creative-UAC-Bypass-Methods-for-the-Modern-Era/)
 - [Privilege Escalation Techniques](https://www.elastic.co/security-labs/exploring-windows-uac-bypasses-techniques-and-detection-strategies)
-- Windows UAC
+- [Windows UAC](https://www.atomicredteam.io/atomic-red-team/atomics/T1548.002)
 - Windows Registry/Task Scheduler Exploits
 
 ---
